@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 import { Configuration, OpenAIApi } from 'openai';
 import { filter, from, map } from 'rxjs';
 import { envionment } from '../../envionments/envionment';
-import {} from ./
-const APIKEY = envionment.apiKey;
 
+
+const APIKEY = envionment.apiKey;
 declare var $:any;
 
 @Injectable({
